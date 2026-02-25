@@ -7,24 +7,6 @@
 
 ---
 
-## ✨ What's Different From ai-town?
-
-[ai-town](https://github.com/a16z-infra/ai-town) provides a general-purpose multi-agent simulation framework. This project repurposes that foundation into a **structured hospital environment** with the following additions:
-
-| Feature | ai-town | AI Hospital |
-|---|---|---|
-| Scene | Generic small town | Full hospital with departments |
-| Agent roles | Generic characters | Doctor / Nurse / Patient with distinct duties |
-| Workflow | Free-roaming chat | Structured triage → consultation → examination → discharge |
-| LLM backend | OpenAI only | Ollama (local) + DeepSeek + Qwen, switchable in UI |
-| Character prompts | Static | Editable live from the UI |
-| Reflection | Basic memory | Doctor reflection panel after each consultation |
-| Player mode | Observer only | Take control of any patient character |
-| Map | Generic town | Custom-designed hospital map |
-| Sprites | Generic folk | Custom medical staff sprites |
-
----
-
 ## 🎯 Features
 
 - **🏥 Complete Hospital Workflow** — Triage desk → Outpatient / Emergency doctor → Diagnostic nurse → Inpatient nurse → Discharge
@@ -209,19 +191,3 @@ node data/convertMap.js data/newaihospital.tmj <tileset-path> <width-px> <height
 ├── assets/               # Static assets (map tileset, icons, sprites)
 └── .env.local.example    # Environment variable template
 ```
-
----
-
-## 🙏 Credits & License
-
-This project is built on top of **[ai-town](https://github.com/a16z-infra/ai-town)** by [a16z-infra](https://github.com/a16z-infra), which provides the core multi-agent simulation infrastructure, Convex backend integration, PixiJS rendering, and pathfinding engine.
-
-Significant modifications and additions made in this fork:
-- Hospital scenario design, map, and medical staff sprites
-- Role-based multi-agent workflow (triage → consultation → examination → discharge)
-- Local LLM support (Ollama) + DeepSeek / Qwen switchable backend
-- Doctor reflection module
-- Live prompt editing in the UI
-- Patient control mode
-
-Licensed under the **MIT License** — see [LICENSE](./LICENSE) for details.
