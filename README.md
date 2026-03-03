@@ -191,3 +191,9 @@ node data/convertMap.js data/newaihospital.tmj <tileset-path> <width-px> <height
 ├── assets/               # Static assets (map tileset, icons, sprites)
 └── .env.local.example    # Environment variable template
 ```
+
+## Academic Supervision
+
+This project is developed under the academic supervision of Prof. Xindong Ye (Affiliation).
+
+We sincerely appreciate his guidance on research design, theoretical framing, and overall project direction.
