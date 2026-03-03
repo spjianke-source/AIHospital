@@ -6,6 +6,7 @@
 <!-- ![Demo](./assets/demo.gif) -->
 
 ---
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/c3902173-f578-42dc-8aee-5c01db87bf18" />
 
 ## 🎯 Features
 
